@@ -1,0 +1,59 @@
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+    list-style: none;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .label {
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+ 
+  
+  /* .form-group {
+    margin-bottom: 5px;
+  } */
+.burgerlist{
+  text-align: center;
+  color:green;
+  width:80%;
+  font-family: 'Shadows Into Light', cursive;
+}  
+
+
+h2{
+  color:red;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h1{
+  text-decoration: underline;
+  font-family: 'Shadows Into Light', cursive;
+  
+  text-align: center;
+
+}
+.button{
+  background-color: black;
+font-family: 'Shadows Into Light', cursive;
+}
+.nom{
+margin-left:50%;
+  background-color:yellow;
+  font-family: 'Shadows Into Light', cursive;
+  width: 60%;
+  height:600px;
+  overflow:scroll;
+}
+.nommed{
+  margin-right:50%;
+  background-color:yellow;
+  font-family: 'Shadows Into Light', cursive;
+  height:600px;
+  width: 60%;
+  overflow:scroll;
+}
