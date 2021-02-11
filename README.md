@@ -5,5 +5,5 @@ This application was made to take user input, store it in the data base, and dis
 This project was my first full stack application! It was also my first expierence wokring with Handlebars. I am used to single JS file, along with an HTML and CSS. This has multiple, multiple files, which took a minute to get used to!
 
 Heroku Live Link: 
-![alt text]
-![alt text]
+![alt text](public/assets/imgs/burger1.png)
+![alt text](public/assets/imgs/burger2.png)
