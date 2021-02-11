@@ -1,8 +1,9 @@
 li {
-    padding: 5px;
+    width:80%;
     margin: 5px;
-    background: #faebd7;
+    background:white ;
     list-style: none;
+    border: solid 4px black;
     font-family: 'Shadows Into Light', cursive;
   }
   
@@ -18,7 +19,8 @@ li {
   } */
 .burgerlist{
   text-align: center;
-  color:green;
+  color:black;
+  font-size:26px;
   width:80%;
   font-family: 'Shadows Into Light', cursive;
 }  
@@ -50,10 +52,17 @@ margin-left:50%;
   overflow:scroll;
 }
 .nommed{
+  text-align: center;
+  font-size:24px;
   margin-right:50%;
   background-color:yellow;
   font-family: 'Shadows Into Light', cursive;
   height:600px;
   width: 60%;
   overflow:scroll;
+}
+
+.topbutton{
+  font-size:24px;
+  font-family: 'Shadows Into Light', cursive;
 }

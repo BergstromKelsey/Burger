@@ -2,19 +2,19 @@
 
 <h2>KEEP A LIST OF BURGERS YOU'VE EATEN AND WANT TO EAT!</h2>
 
-<h2>Add a Burger</h2>
+
+<div class="topbutton">
 <form class="create-form">
 <center>
   <div class="form-group">
-    <label for="ca">Burger Name:</label><BR>
-    
-    <input type="text" id="ca" name="name">
+
+    <input type="text" id="ca" name="name" placeholder="Add a burger!"
   </div>
 
-  <button type="submit" name="addburg">Add Burger</button>
+  <button type="submit" name="addburg" class="btn btn-secondary btn-sm" >Add </button><BR><BR>
 </form>
 </center>
-
+</div>
 <div class="row">
 
     <div class="col-md-5">
@@ -34,12 +34,14 @@
       <div class="nommed">
         <h2>BURGERS NOMMED</h2>
         <ul>
+          <li>
             {{#each burgers}} {{#if devoured}}
             <div class="eat-burger">
                 <span class="label">#{{this.id}}</span>
                 <span class="label">{{this.burger_name}}</span>
             </div>
             {{/if}} {{/each}}
+            </li>
         </ul>
     </div>
     <div class="col-md-1"></div>
