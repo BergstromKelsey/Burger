@@ -1,3 +1,5 @@
+
+
 li {
     width:80%;
     margin: 5px;
@@ -12,11 +14,6 @@ li {
     font-family: 'Shadows Into Light', cursive;
   }
   
- 
-  
-  /* .form-group {
-    margin-bottom: 5px;
-  } */
 .burgerlist{
   text-align: center;
   color:black;
@@ -35,7 +32,7 @@ h2{
 h1{
   text-decoration: underline;
   font-family: 'Shadows Into Light', cursive;
-  
+  font-size:24px;
   text-align: center;
 
 }
@@ -44,18 +41,22 @@ h1{
 font-family: 'Shadows Into Light', cursive;
 }
 .nom{
+  box-shadow: 5px 10px;
+  border: solid 4px black;
 margin-left:50%;
-  background-color:yellow;
+  background-color:#fbec5d;
   font-family: 'Shadows Into Light', cursive;
   width: 60%;
   height:600px;
   overflow:scroll;
 }
 .nommed{
+  box-shadow: 5px 10px;
+  border: solid 4px black;
   text-align: center;
   font-size:24px;
   margin-right:50%;
-  background-color:yellow;
+  background-color:#fbec5d;
   font-family: 'Shadows Into Light', cursive;
   height:600px;
   width: 60%;
